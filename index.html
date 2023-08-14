@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flashcard Web</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Flashcard Web</h1>
+    </div>
+
+    <div class="instructions">
+        <p>Welcome to the Flashcard Web!</p>
+        <ul>
+            <li>Click the "Add Flashcard" button to create a flashcard.</li>
+            <li>Drag the cards around.</li>
+            <li>Double click two cards to connect them.</li>
+            <li>Each card is double-sided. Click the "Flip" button to see the other side.</li>
+            <li>Scroll up/down and left/right to see overflow.</li>
+            <li>Click "Save" to save your work locally to the browser. <strong> There is no autosave.</strong></li>
+            <li>Click "Clear Canvas" to delete all the flashcards. <strong> This is permanent.</strong></li>
+        </ul>
+    </div>
+
+    <div class="button-container">
+        <button id="addFlashcard" class="addFlashcardButton">Add Flashcard</button>
+        <button id="saveFlashcards" class="addFlashcardButton">Save</button>
+        <button id="clearCanvas" class="addFlashcardButton">Clear Canvas</button>
+    </div>
+
+    <div id="flashcardContainer">
+        <svg id="connections"></svg>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
 
